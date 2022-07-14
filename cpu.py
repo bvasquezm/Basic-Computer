@@ -175,7 +175,7 @@ if __name__ == "__main__":
 		P.append(Processor('P' + str(i)))
 	R = Run(P)
 	# Must have tests dir in same directory as this file
-	run_program(f"tests2/{input_file}.csv", R) 
+	run_program(f"tests/{input_file}.csv", R) 
 	
     
 
